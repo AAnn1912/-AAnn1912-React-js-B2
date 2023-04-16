@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: black;
+    padding: 15px 30px;
+    opacity: 0.8;
+}
+
+.header h3 {
+    font-size: 36px;
+    color: white;
+}
+
+.model .model_1 {
+    margin-right: 100px;
+    position: relative;
+}
+
+.glasses_model img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 19.3%;
+    background-color: transparent;
+    left: 35.3%;
+
+}
+
+.model img {
+    width: 250px;
+    height: 250px;
+    padding: 15px 30px;
+}
+
+
+.list_glasses {
+    display: flex;
+    justify-content: center;
+}
+
+.list_glasses .item button {
+    margin: 20px 15px 0 0;
+
+}
+
+.list_glasses .item img {
+    width: 100px;
+    height: 100px;
+}
